@@ -98,8 +98,42 @@ form button{
     color: #ffffff;
 }
 
+@media (max-width:760px) {
+    .container{
+        min-width: 700px;
+    }
+    
+}
 
 
 
+@media (max-width:576px) {
+    .container{
+        min-width:540px ;
+    }
+    .container form .user-details{
+       display: grid;
+       
+    }
 
- 
+    form .gender-details .catagory{
+        display: grid;
+      
+    }
+} 
+
+@media (max-width:430px) {
+    .container{
+        min-width: 380px;
+    }
+    .container form .user-details{
+        display: grid;    
+        
+    }
+    form .gender-details .catagory{
+        display: grid;
+  
+    }
+
+
+}
